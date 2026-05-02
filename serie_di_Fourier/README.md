@@ -21,11 +21,11 @@ $$
 **Coefficienti delle armoniche in fase (coseni):**
 
 $$
-a_n = \frac{2}{T_0} \int_{0}^{T_0} f(t) \cos(n\Omega_0 t) \, dt \quad \text{con } n=1,2,3,...
+a_n = \frac{2}{T_0} \int_{0}^{T_0} f(t) \cos(k\Omega_0 t) \, dt \quad \text{con } k=1,2,3,...
 $$
 
 **Coefficienti delle armoniche in quadratura (seni):**
 
 $$
-b_n = \frac{2}{T_0} \int_{0}^{T_0} f(t) \sin(n\Omega_0 t) \, dt \quad \text{con } n=1,2,3,...
+b_n = \frac{2}{T_0} \int_{0}^{T_0} f(t) \sin(k\Omega_0 t) \, dt \quad \text{con } k=1,2,3,...
 $$
