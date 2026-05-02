@@ -13,16 +13,19 @@ Dove
 I coefficienti della forma trigonometrica si calcolano come segue:
 
 **Termine costante (valore medio):**
+
 $$
 a_0 = \frac{1}{T_0} \int_{0}^{T_0} f(t) \, dt
 $$
 
 **Coefficienti delle armoniche in fase (coseni):**
+
 $$
 a_n = \frac{2}{T_0} \int_{0}^{T_0} f(t) \cos(n\Omega_0 t) \, dt \quad \text{con } n=1,2,3,...
 $$
 
 **Coefficienti delle armoniche in quadratura (seni):**
+
 $$
 b_n = \frac{2}{T_0} \int_{0}^{T_0} f(t) \sin(n\Omega_0 t) \, dt \quad \text{con } n=1,2,3,...
 $$
