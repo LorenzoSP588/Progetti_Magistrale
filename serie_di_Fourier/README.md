@@ -1,1 +1,2 @@
-\textbf{Serie di Fourier}
+**Serie di Fourier**
+
