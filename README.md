@@ -1,2 +1,3 @@
 # Progetti_Magistrale
-èèèè
+$$2^2$$
+
