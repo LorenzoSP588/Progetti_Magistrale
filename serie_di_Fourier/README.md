@@ -5,7 +5,7 @@ Come noto è possibile approssimare una **funzione periodica** mediante una somm
 Nel codice è stata implementata la forma trigonometrica della serie di Fourier, con riferimento al testo di _Fasana - Marchesiello | Meccanica delle vibrazioni_. Sia data una funzione $f(t)$ periodica di periodo $T_0$ e si indichi con $\Omega_0 = 2\pi/T_0$ la _pulsazione fondamentale_ o _prima armonica_. La scomposizione della funzione in serie di Fourier è:
 
 $$
-f(t) = a_0 + \sum_{n=1}^{\infty} \left( a_n \cos(n\Omega_0 t) + b_n \sin(n\Omega_0 t) \right)
+f(t) = a_0 + \sum_{k=1}^{\infty} \left( a_k \cos(k\Omega_0 t) + b_k \sin(k\Omega_0 t) \right)
 $$
 
 Dove 
@@ -21,11 +21,11 @@ $$
 **Coefficienti delle armoniche in fase (coseni):**
 
 $$
-a_n = \frac{2}{T_0} \int_{0}^{T_0} f(t) \cos(k\Omega_0 t) \, dt \quad \text{con } k=1,2,3,...
+a_k = \frac{2}{T_0} \int_{0}^{T_0} f(t) \cos(k\Omega_0 t) \, dt \quad \text{con } k=1,2,3,...
 $$
 
 **Coefficienti delle armoniche in quadratura (seni):**
 
 $$
-b_n = \frac{2}{T_0} \int_{0}^{T_0} f(t) \sin(k\Omega_0 t) \, dt \quad \text{con } k=1,2,3,...
+b_k = \frac{2}{T_0} \int_{0}^{T_0} f(t) \sin(k\Omega_0 t) \, dt \quad \text{con } k=1,2,3,...
 $$
