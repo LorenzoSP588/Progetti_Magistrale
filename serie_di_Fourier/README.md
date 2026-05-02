@@ -7,3 +7,22 @@ Nel codice è stata implementata la forma trigonometrica della serie di Fourier,
 $$
 f(t) = a_0 + \sum_{n=1}^{\infty} \left( a_n \cos(n\Omega_0 t) + b_n \sin(n\Omega_0 t) \right)
 $$
+
+Dove 
+### Coefficienti della serie
+I coefficienti della forma trigonometrica si calcolano come segue:
+
+**Termine costante (valore medio):**
+$$
+a_0 = \frac{1}{T_0} \int_{0}^{T_0} f(t) \, dt
+$$
+
+**Coefficienti delle armoniche in fase (coseni):**
+$$
+a_n = \frac{2}{T_0} \int_{0}^{T_0} f(t) \cos(n\Omega_0 t) \, dt \quad \text{con } n=1,2,3,...
+$$
+
+**Coefficienti delle armoniche in quadratura (seni):**
+$$
+b_n = \frac{2}{T_0} \int_{0}^{T_0} f(t) \sin(n\Omega_0 t) \, dt \quad \text{con } n=1,2,3,...
+$$
